@@ -6,9 +6,9 @@ import { Route } from "react-router-dom";
 const App = () => (
   <div>
     <Navigation />
-    <Route exact path="/" />
-    <Route path="/about" />
-    <Route path="/contract" />
+    <Route exact path="/home" component={Home} />
+    <Route path="/about" component={About} />
+    <Route path="/contact" component={Contact} />
   </div>
 );
 
